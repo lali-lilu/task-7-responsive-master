@@ -1,0 +1,335 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.head{
+    width:100%;
+    height: 696px;
+    background-image: url(./assets/Rectangle\ 30.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header  nav{
+    background-image: url(./assets/Vector\ \(11\).svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:rgba(248, 248, 248, 1);
+    width:53px;
+    height:53px;
+}
+header  nav a{
+    display: none;
+}
+
+header  img{
+    width: 9%;
+    height: 88%;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:  32px 6.25%  0 6.25%;
+}
+.article{
+    color: rgba(192, 180, 180, 1);
+    font-family: Gentium Book Basic;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    align-self: center;
+    width: 87.5%;
+    padding-bottom: 16%;
+    text-align: center;
+}
+.album{
+    background-color: rgba(42, 38, 38, 1);
+    display: flex;
+    height:1418px;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 98%;
+    justify-content: space-evenly;
+}
+h2{
+    font-family: Gentium Book Basic;
+font-size: 36px;
+font-weight: 400;
+line-height: 42px;
+letter-spacing: 0em;
+color:rgba(255, 255, 255, 1);
+}
+.photo-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.photo-wrap img {
+    width: 133.34%;
+    height: 31.28%;
+}
+.about-wrap{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(11, 10, 10, 1);
+    height: 760px;
+    justify-content: center;
+    align-items: center;
+}
+.content-about img{
+    width: 87.5%;
+    height: 50%;
+    padding: 0%;
+    margin: 0%;
+}
+.content-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 85%;
+    align-items: center;
+}
+.contentImg834{
+    display:none;
+}
+.description{
+    background-color: rgb(142, 139, 139);
+   
+    width: 87.5%;
+    height: 43.35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description p{
+    width:72%;
+    font-family: "Gentium Book Basic";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    color: rgb(255, 255, 255);
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(42, 38, 38, 1);
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+.footer .footerLogo{
+    display: none;
+}
+.soclogos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 30%;
+    justify-content: space-between;
+}
+.mail,  .fb{
+    width:30px;
+    height:30px;
+}
+.insta{
+    width:37px;
+    height:37px;
+    margin-left: -11%;
+}
+@media all and (min-width:834px){
+    .mail,  .fb{
+        width:60px;
+        height:60px;
+    }
+    h2{
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 56px;      
+    }
+    .insta{
+        width:67px;
+    height:67px;
+    }
+    .footer{
+        height: 217px;
+    }
+    .description p{
+        width: 82%;
+        align-self: normal;
+        margin-top: 15%;
+    }
+ 
+    .description{
+        background-color: rgb(142, 139, 139);
+        width: 46.512%;
+        height: 320px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .photo-wrap img {
+        width: 360px;
+        height: 320px;
+    }
+    .content-about{
+        flex-direction: row;
+        justify-content: space-between;
+        display: flex;
+        height: 68%;
+        width: 92.806%;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 610px;
+        align-content: center;
+        justify-content: space-evenly;
+        width: 100%;
+            }
+    .content-about .contentImg{
+       display:none;
+     }
+     .contentImg834{
+        background-image: url(./assets/Rectangle\ 10\ \(1\).svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        width: 46.512%;
+        height: 320px;
+     }
+    .about-wrap{
+        height:610px;
+       
+    }
+    .photo-wrap {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .thirdView{
+        display: none;
+    }
+    .album {
+        height: 610px;
+      
+    }
+}
+@media all and (min-width:1024px){
+.footer .footerLogo{
+    display: block;
+}
+.insta{
+    width: 80px;
+    height: 80px;
+}
+.footer{
+    justify-content: space-between;
+    padding: 0 8%;
+
+}
+
+.description {
+    height: 320px;
+    width: 400px;
+}
+.content {
+    width: 89%;
+}
+header nav {
+    background-image: none;
+    display: flex;
+    flex-direction: row;
+    width: 532px;
+    justify-content: space-between;
+}
+
+header  nav a{
+    display: block;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+font-size: 32px;
+font-weight: 700;
+line-height: 37px;
+
+}
+.article{
+font-size: 40px;
+font-weight: 700;
+line-height: 46px;
+padding-bottom: 6%;
+}
+.contentImg834{
+    background-image: url(./assets/Rectangle\ 10\ \(2\).svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 42.1%;
+ }
+ .content-about{
+    justify-content: space-evenly;
+ }
+ .about-wrap{
+    justify-content: center;
+ }
+}
+@media all and (min-width:1440px){
+
+.img1{
+    background-image: url(./assets/Group\ 5.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:315px;
+    height:320px;
+}
+.img2{
+    background-image: url(./assets/Rectangle\ 6\ \(1\).svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:315px;
+    height:320px;
+}
+.img3{
+    background-image: url(./assets/Group\ 3\ \(1\).svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:315px;
+    height:320px;
+}
+.photo-wrap img{
+    display: none;
+}
+.contentImg834{
+    height: 320px;
+    width: 565px;
+}
+.description {
+    height: 320px;
+    width: 565px;
+}
+.description p{
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+width: 61%;
+margin-top: 13%;
+}
+.article{
+    width: 67.5%;
+}
+}
